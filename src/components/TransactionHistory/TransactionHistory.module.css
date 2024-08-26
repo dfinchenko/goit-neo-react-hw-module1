@@ -1,0 +1,30 @@
+.items {
+  min-width: 500px;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+.items th,
+.items td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.items thead tr {
+  background-color: var(--bg-dark);
+  color: white;
+}
+
+.items tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+.items tbody tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+.currency {
+  text-transform: capitalize;
+}
